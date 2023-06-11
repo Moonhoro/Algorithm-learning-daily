@@ -1,0 +1,22 @@
+1.  STL语法
+	- vector 变长数组,倍增思想
+	- string 字符串
+		- `substr()`取子串
+		- `c_str()`返回字符串首地址
+	- queue 队列
+		- `push()`队尾插入
+		- `front()`返回队头
+		- `back`返回队尾
+		- `pop()`弹出队头
+	- prioity_queue 堆 默认最大堆
+		- `push()`插入元素
+		- `top()`返回堆顶
+		- `pop()`弹出堆顶
+	- stack 栈
+		- `push()`插入元素
+		- `top()`返回栈顶
+		- `pop()`弹出栈顶
+	- deque 双端队列
+	- set,map,multiser,multimap均基于平衡二叉树（红黑树）实现，动态维护有序序列
+	- unordered_set,unordered_map,unordered_multimap，unordered_multiser基于哈希表实现
+	- bitset,压位
